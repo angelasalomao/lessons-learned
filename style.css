@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: 'Montserrat', sans-serif;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: #e15c7c;
+  height: 50px;
+  width: 100%;
+  font-size: 16px;
+  color: #f4efec;
+  text-align: center;
+}
+
+#titulo {
+  margin-top: 4px;
+}
+
+main {
+  padding: 16px;
+}
+
+#minha_foto {
+  height: 250px;
+  width: 250px;
+  border-radius: 8px;
+}
+
+.img_e_link {
+  display: flex;
+  flex-direction: row;
+  margin-top: 44px;
+}
+
+.nome_e_links {
+  margin-left: 12px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  font-size: 20px;
+  font-weight: 700;
+  color: #e15c7c;
+}
+
+.lista_licoes {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 8px;
+  margin-top: 8px;
+  padding: 8px;
+}
+
+.lista_licoes h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#licoes_aprendidas {
+  margin-right: 24px;
+  margin-left: 16px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.titulo_tabela {
+  font-size: 18px;
+}
+
+table,
+tr,
+td {
+  border: 1px solid #000000;
+}
+
+td {
+  padding: 4px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+table img {
+  width: 80px;
+  height: 30px;
+}
+.article_aside {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 110px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+.article_aside p {
+  margin: 0;
+  line-height: normal;
+}
+
+.lado-esquerdo {
+  width: 700px;
+  height: 20px;
+}
+
+.lado-direito {
+  width: 700px;
+  height: 20px;
+}
+
+#rodape {
+  background-color: #e15c7c;
+  padding: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #f4efec;
+}
